@@ -1,14 +1,6 @@
-package HW7;
+package HW8;
 
-public class SimpleStringList {
-
-//Реализовать простую коллекцию для String на базе массива.
-//Реализовать следующие методы для работы с коллекцией:
-//1. public boolean add(int index, String value);
-//2. public boolean add(String value);
-//3. public boolean delete(int index);
-//4. public boolean delete(String value);
-//5. public String get(int index);
+public class SimpleCollection implements Collection<String> {
 
     private String[] simpleArray = new String[1];
     private int size;
@@ -25,7 +17,20 @@ public class SimpleStringList {
         }
         simpleArray = newSimpleArray;
     }
+    private int getFirstOccurrenceIndex(String value){
+        int result = -1;
 
+        for (int i = 0; i < size; i++) {
+            if (simpleArray[i].equals(value)) {
+                result = i;
+                break;
+            }
+        }
+
+        return result;
+    }
+
+   @Override
     public boolean add(int index, String value) {
         boolean result;
 
@@ -47,7 +52,7 @@ public class SimpleStringList {
         return result;
     }
 
-
+   @Override
     public boolean add(String value) {
         boolean result;
 
@@ -81,24 +86,19 @@ public class SimpleStringList {
         return result;
     }
 
+    @Override
     public boolean delete(String value) {
         boolean result = false;
-        int currentIndex = -1;
 
         if (value == null) {
             result = false;
         } else {
-            for (int i = 0; i < size; i++) {
-                if (simpleArray[i].equals(value)) {
-                    currentIndex = i;
-                    break;
-                }
-            }
-            result = this.delete(currentIndex);
+            result = this.delete(getFirstOccurrenceIndex(value));
         }
         return result;
     }
 
+    @Override
     public String get(int index) {
         if (!isCorrectIndex(index)) {
             return null;
@@ -106,10 +106,6 @@ public class SimpleStringList {
             String value = simpleArray[index];
             return value;
         }
-    }
-
-    public int getSize(){
-        return this.size;
     }
 
     @Override
@@ -129,5 +125,29 @@ public class SimpleStringList {
         return st;
     }
 
-}
 
+    @Override
+    public boolean contain(String o) {
+        return (getFirstOccurrenceIndex(o) >= 0);
+    }
+
+    @Override
+    public boolean equals(Collection str) {
+       return this.toString().equals(str.toString());
+    }
+
+    @Override
+    public boolean clear() {
+        simpleArray = new String[1];
+        size = 0;
+
+        return true;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+
+}
