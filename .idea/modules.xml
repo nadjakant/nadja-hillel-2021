@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstMaven/FirstMaven.iml" filepath="$PROJECT_DIR$/FirstMaven/FirstMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstMavenProject/FirstMavenProject.iml" filepath="$PROJECT_DIR$/FirstMavenProject/FirstMavenProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/nadja-hillel-2021.iml" filepath="$PROJECT_DIR$/nadja-hillel-2021.iml" />
     </modules>
   </component>
