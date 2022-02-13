@@ -32,7 +32,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>com.first.maven.Run</mainClass>
+                                <mainClass>HW14.Main</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
