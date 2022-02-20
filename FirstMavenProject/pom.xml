@@ -32,7 +32,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>HW14.Main</mainClass>
+                                <mainClass>HW15.Main</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
