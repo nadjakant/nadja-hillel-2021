@@ -10,12 +10,8 @@ package HW16;
 import java.io.*;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Random;
 import java.util.Scanner;
-
-import static java.io.File.separator;
 
 public class RockScissorsPaper {
     public Scanner scanner = new Scanner(System.in);
@@ -158,6 +154,8 @@ public class RockScissorsPaper {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+
 
 
     }
