@@ -1,0 +1,18 @@
+2022-04-16 22:38:02,492 [DEBUG] [main          ] - Result of the play: 
+2022-04-16 22:38:02,493 [DEBUG] [main          ] - computer won round1
+2022-04-16 22:38:03,580 [DEBUG] [main          ] - Result of the play: 
+2022-04-16 22:38:03,581 [DEBUG] [main          ] - It's a draw, let's make another round
+2022-04-16 22:38:05,024 [DEBUG] [main          ] - Result of the play: 
+2022-04-16 22:38:05,025 [DEBUG] [main          ] - Nadja won round2
+2022-04-16 22:38:05,025 [DEBUG] [main          ] - Score: 
+2022-04-16 22:38:05,025 [DEBUG] [main          ] - Nadja: 1
+2022-04-16 22:38:05,025 [DEBUG] [main          ] - computer: 1
+2022-04-16 22:38:05,025 [DEBUG] [main          ] - Tie!
+2022-04-16 22:38:27,395 [DEBUG] [main          ] - Result of the play: 
+2022-04-16 22:38:27,396 [DEBUG] [main          ] - It's a draw, let's make another round
+2022-04-16 22:38:29,275 [DEBUG] [main          ] - Result of the play: 
+2022-04-16 22:38:29,276 [DEBUG] [main          ] - computer won round1
+2022-04-16 22:38:29,277 [DEBUG] [main          ] - Score: 
+2022-04-16 22:38:29,277 [DEBUG] [main          ] - Nadja: 0
+2022-04-16 22:38:29,278 [DEBUG] [main          ] - computer: 1
+2022-04-16 22:38:29,278 [DEBUG] [main          ] - computer won this game
