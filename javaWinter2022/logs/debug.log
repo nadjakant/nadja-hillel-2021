@@ -1,15 +1,21 @@
-2022-04-16 22:38:00,829 [DEBUG] [main          ] - Count of games: 2
-2022-04-16 22:38:02,492 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: PAPER
-2022-04-16 22:38:02,493 [DEBUG] [main          ] - Rounds left: 1
-2022-04-16 22:38:03,580 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: ROCK
-2022-04-16 22:38:03,581 [DEBUG] [main          ] - Rounds left: 0
-2022-04-16 22:38:05,024 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: SCISSORS
-2022-04-16 22:38:05,025 [DEBUG] [main          ] - Rounds left: 0
-2022-04-16 22:38:22,025 [DEBUG] [main          ] - Count of games: -1
-2022-04-16 22:38:22,029 [DEBUG] [main          ] - Unsuitable value
-2022-04-16 22:38:27,395 [DEBUG] [main          ] - Current move of the first player: PAPER - Current move of the second player: PAPER
-2022-04-16 22:38:27,396 [DEBUG] [main          ] - Rounds left: 0
-2022-04-16 22:38:29,276 [DEBUG] [main          ] - Current move of the first player: SCISSORS - Current move of the second player: ROCK
-2022-04-16 22:38:29,277 [DEBUG] [main          ] - Rounds left: 0
-2022-04-16 22:38:47,251 [DEBUG] [main          ] - Count of games: 0
-2022-04-16 22:38:47,255 [DEBUG] [main          ] - User didn't want to play and quit
+2022-04-24 13:03:14,425 [DEBUG] [main          ] - Count of games: 1
+2022-04-24 13:03:16,505 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: SCISSORS
+2022-04-24 13:03:16,522 [DEBUG] [main          ] - Rounds left: 0
+2022-04-24 13:04:54,541 [DEBUG] [main          ] - Count of games: 1
+2022-04-24 13:04:56,395 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: ROCK
+2022-04-24 13:04:56,402 [DEBUG] [main          ] - Rounds left: 0
+2022-04-24 13:05:03,976 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: ROCK
+2022-04-24 13:05:03,976 [DEBUG] [main          ] - Rounds left: 0
+2022-04-24 13:05:05,567 [DEBUG] [main          ] - Current move of the first player: ROCK - Current move of the second player: SCISSORS
+2022-04-24 13:05:05,594 [DEBUG] [main          ] - Rounds left: 0
+2022-04-24 13:06:43,535 [DEBUG] [main          ] - Count of games: 1
+2022-04-24 13:06:45,406 [DEBUG] [main          ] - Current move of the first player: SCISSORS - Current move of the second player: ROCK
+2022-04-24 13:06:45,424 [DEBUG] [main          ] - Rounds left: 0
+2022-04-24 13:07:11,187 [DEBUG] [main          ] - Count of games: H
+2022-04-24 13:07:11,190 [DEBUG] [main          ] - Unsuitable value
+2022-04-24 13:07:18,072 [DEBUG] [main          ] - Current move of the first player: PAPER - Current move of the second player: PAPER
+2022-04-24 13:07:18,077 [DEBUG] [main          ] - Rounds left: 1
+2022-04-24 13:07:20,196 [DEBUG] [main          ] - Current move of the first player: PAPER - Current move of the second player: ROCK
+2022-04-24 13:07:20,210 [DEBUG] [main          ] - Rounds left: 1
+2022-04-24 13:07:23,258 [DEBUG] [main          ] - Current move of the first player: PAPER - Current move of the second player: ROCK
+2022-04-24 13:07:23,258 [DEBUG] [main          ] - Rounds left: 0
